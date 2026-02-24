@@ -1,7 +1,7 @@
 # Exam_Insurance
 This project explores whether a small, emotionally supportive insurance-like product can reduce that pressure. By offering a modest reward if students underperform relative to expectations, the goal is not financial protection but psychological reassurance. This web is use to take in information.
 
-demo video:
+demo video:https://www.youtube.com/watch?v=pBzbDdU2QdY
 
 # Project: Student-Facing Risk Protection Concept
 
