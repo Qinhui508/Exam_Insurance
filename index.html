@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiet Promise — Student Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- progress bar -->
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <!-- welcome page -->
+    <section class="page active" id="page-1">
+      <div class="card">
+        <h1>A Quiet Promise for a Cloudy Future</h1>
+        <p>Students today face tremendous pressure. This small experience is designed to give you a sense of support and reassurance during uncertain academic moments.</p>
+        <button onclick="nextPage()">Start</button>
+      </div>
+    </section>
+
+    <!-- personal information -->
+    <section class="page" id="page-2">
+      <div class="card">
+        <h2>Tell Us About Yourself</h2>
+        <label>Year of Study:
+          <select id="year">
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th+ Year</option>
+          </select>
+        </label>
+        <label>Major:
+          <input type="text" id="major" placeholder="e.g., Math">
+        </label>
+        <label>Course to insure:
+          <input type="text" id="course" placeholder="e.g., CS136L">
+        </label>
+        <label>How stressed do you feel? (0 = calm, 10 = very stressed)
+          <input type="range" id="stress" min="0" max="10">
+        </label>
+        <div class="buttons">
+          <button onclick="prevPage()">Back</button>
+          <button onclick="nextPage()">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- personal information verification page -->
+    <section class="page" id="page-3">
+      <div class="card">
+        <h2>Verification</h2>
+        <p>To ensure fairness, please provide your student ID and upload a short video or screenshot of your current grades.</p>
+        <label>Student ID:
+          <input type="text" id="studentID" placeholder="e.g., 12345678">
+        </label>
+        <label>Upload Video/Screenshot:
+          <input type="file" id="verificationFile" accept="image/*,video/*">
+        
+          <script src="script.js"></script>
+        </label>
+        <div>
+            Midterm Average: <span id="midtermAvg">Waiting...</span>
+          </div>
+          <div>
+            Assignment Average: <span id="assignmentAvg">Waiting...</span>
+          </div>
+          <div>
+            Quiz Average: <span id="quizAvg">Waiting...</span>
+          </div>
+        <div class="buttons">
+          <button onclick="prevPage()">Back</button>
+          <button onclick="nextPage()">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- explain page -->
+    <section class="page" id="page-4">
+      <div class="card">
+        <h2>Your Support Tier</h2>
+        <div>
+          Your Average is: <span id="tier-text">...(waiting for image to upload)</span>
+        </div>
+        <h3>How It Works</h3>
+        <p>If your final score falls below your tier, you would receive a small symbolic reward. To receive it, upload a screenshot/video of your final grade. This prototype emphasizes emotional support rather than financial compensation.</p>
+        <h3>Trust & Integrity</h3>
+        <p>Integrity matters. Honest submissions ensure fairness for all students.</p>
+        <h3>Reflection</h3>
+        <p>After this experience, how do you feel?</p>
+        <label><input type="radio" name="reflection" value="Less stressed"> Less stressed</label>
+        <label><input type="radio" name="reflection" value="Same"> Same</label>
+        <label><input type="radio" name="reflection" value="More aware"> More aware</label>
+        <div class="buttons">
+          <button onclick="prevPage()">Back</button>
+          <button onclick="showThankYou()">Finish</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thank You -->
+    <section class="page" id="thanks">
+      <div class="card">
+        <h2>Thank You!</h2>
+        <p>Remember: you’ve done your best — that is what counts. Your insights help make this experience meaningful for other students.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

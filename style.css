@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #C8E6F3 0%, #E0BBF3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+/* Progress bar */
+.progress-container {
+  width: 100%;
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 8px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #6B5BFF;
+  border-radius: 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+/* Pages */
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Card style */
+.card {
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+p {
+  color: #444;
+  line-height: 1.5;
+}
+
+input[type="text"], input[type="number"], select, input[type="file"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border-radius: 8px;
+  border: 1px solid #CCC;
+  font-size: 16px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  background: #6B5BFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #5947E5;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity:1; transform: translateY(0);}
+}
+
