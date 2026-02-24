@@ -3,33 +3,33 @@ This project explores whether a small, emotionally supportive insurance-like pro
 
 demo video:
 
-#Project: Student-Facing Risk Protection Concept
+# Project: Student-Facing Risk Protection Concept
 
-##1. Business Objective
+## 1. Business Objective
 The whole reason I want to create this exam-insurance idea is simply I’ve seen how stressed students are these days. Passing isn’t enough anymore — everyone feels pressure to score 80, 85, 90 just to feel “okay.” And that pressure builds up and hurts people more than we admit. 
 I want this service to make students feel a little safer. Insurance, at its core, is meant to give people peace of mind when they’re worried about something uncertain, it is something that is supposed to be good and nice. Like why not bring that same comfort into school life? 
 My goal is simple: if someone does well, great — that’s the best outcome. But if they don’t, at least they get something back. Something small but make them feel at least a bit better. I want this to take away just a bit of the fear around exams which may actually help them perform better. 
 
-##2. Concept Overview
+## 2. Concept Overview
 Students purchase a small “exam insurance” policy before the final exam.
 If the student scores below a pre-defined threshold, they receive a small reward (AirPods, headphones, gift cards).
 The purpose is behavioral and emotional, not financial gain.
 Tagline / Slogan(maybe):
 “A ray of sunshine for a cloudy future.”
 
-##3. Target Market
+## 3. Target Market
 Primary Customers: University students in a pilot class (30–50 students).
 Secondary: Expand to multiple classes, courses, or universities.
 Rationale: Students are future core insurance customers, but currently have little awareness or emotional experience of insurance.
 
-##4. Risks & Considerations
+## 4. Risks & Considerations
 Moral Hazard: Students might intentionally fail (mitigated by moderate prizes). 
 Adverse Selection: Only anxious students may buy; people who purchase have higher risk.
 Legal / Ethical: Not a regulated insurance product; framed as a behavioral prototype.
 Reputational: Must clearly communicate the purpose is emotional support, not gambling or financial advice.
 
 
-##5. Mechanics AND procedures to reduce the risks
+## 5. Mechanics AND procedures to reduce the risks
 Policy Purchase: Different premium based on the price of the reward. 
 Examples:
 Reward(Popular items among university students)
@@ -42,7 +42,7 @@ Speakers
 50$
 
 
-#Threshold Design:
+# Threshold Design:
 Students will be required to provide prior performance (quizzes, midterms, assignments).
 Based on these results, We will put students into 4 different thresholds: 50%, 60%, 70% and 80%. 
 For example, if the current average is between 45% to 54%, then the student will be eligible to apply for the 50% threshold, which means if the student ends up with a final grade less than 50%, then reward will be provided. The students will always be able to apply for the threshold that is below their current average: 
@@ -65,7 +65,7 @@ Assume 20% of students fall below threshold, V = $200(Airpods), loading = $5 (Ad
 
 
 Premium = 0.2 × 200 + 5 = $45 (conceptual expected loss for insurer)
-##6. Technical / Intellectual Rigor
+## 6. Technical / Intellectual Rigor
 Probability & Expected Value: Calculate risk-adjusted payouts.
 
 
@@ -91,7 +91,7 @@ Sensitivity analysis for premium pricing
 
 
 Incorporate elements from actuarial science: risk margins, premium loadings, expected vs. worst-case scenarios
-##7. Operational Plan
+## 7. Operational Plan
 Start small (Only cs, maths, or engineering majors).
 Collect data via simple web or app or even Google form.
 Put posters around school and use social media accounts to advertise.
